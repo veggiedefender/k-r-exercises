@@ -6,7 +6,7 @@ main() {
     int c, blanks, tabs, newlines;
     blanks = tabs = newlines = 0;
     while ((c = getchar()) != EOF) {
-        switch(c) {
+        switch (c) {
             case ' ':
                 blanks++;
                 break;
