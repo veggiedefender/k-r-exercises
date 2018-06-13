@@ -3,7 +3,7 @@ or more blanks by a single blank. */
 
 #include <stdio.h>
 
-main() {
+int main() {
     int c;
     int inspaces = 0;
     while ((c = getchar()) != EOF) {
@@ -17,4 +17,5 @@ main() {
             inspaces = 0;
         }
     }
+    return 0;
 }

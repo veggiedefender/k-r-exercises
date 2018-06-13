@@ -3,6 +3,7 @@ is some character not listed above. */
 
 #include <stdio.h>
 
-main() {
+int main() {
     printf("this is\roverwritten.\n");
+    return 0;
 }

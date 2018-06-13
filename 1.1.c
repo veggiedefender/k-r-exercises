@@ -3,6 +3,7 @@ parts of the program, to see what error messages you get. */
 
 #include <stdio.h>
 
-main() {
+int main() {
     printf("hello, world\n");
+    return 0;
 }

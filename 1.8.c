@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-main() {
+int main() {
     int c, blanks, tabs, newlines;
     blanks = tabs = newlines = 0;
     while ((c = getchar()) != EOF) {
@@ -21,4 +21,5 @@ main() {
     printf("blanks: %d\n", blanks);
     printf("tabs: %d\n", tabs);
     printf("newlines: %d\n", newlines);
+    return 0;
 }

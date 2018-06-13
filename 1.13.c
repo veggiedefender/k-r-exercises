@@ -6,7 +6,7 @@
 #define OUT      0
 #define LONGEST  9
 
-main() {
+int main() {
     int c, state, length;
     int lengths[LONGEST + 1];
     length = 0;
@@ -36,4 +36,5 @@ main() {
         }
         printf("\n");
     }
+    return 0;
 }

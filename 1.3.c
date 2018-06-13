@@ -3,7 +3,7 @@ table. */
 
 #include <stdio.h>
 
-main() {
+int main() {
     float fahr, celsius;
     int lower, upper, step;
 
@@ -18,4 +18,5 @@ main() {
         printf("%3.0f\t%6.1f\n", fahr, celsius);
         fahr = fahr + step;
     }
+    return 0;
 }

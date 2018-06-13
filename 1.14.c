@@ -5,7 +5,7 @@ characters in its input. */
 
 #define MAX_CODE 255
 
-main() {
+int main() {
     int c;
     int freqs[MAX_CODE + 1];
     for (int i = 0; i <= MAX_CODE; i++) {
@@ -23,4 +23,5 @@ main() {
         }
         printf("\n");
     }
+    return 0;
 }

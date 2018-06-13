@@ -4,7 +4,7 @@ visible in an unambiguous way. */
 
 #include <stdio.h>
 
-main() {
+int main() {
     int c;
     while ((c = getchar()) != EOF) {
         switch (c) {
@@ -21,4 +21,5 @@ main() {
                 putchar(c);
         }
     }
+    return 0;
 }

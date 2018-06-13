@@ -2,6 +2,7 @@
 
 #include <stdio.h>
 
-main() {
+int main() {
     printf("%d\n", EOF);
+    return 0;
 }
